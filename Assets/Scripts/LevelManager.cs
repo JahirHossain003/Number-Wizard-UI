@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+
+print("Quit Level");﻿using UnityEngine;
 using System.Collections;
 
 public class LevelManager : MonoBehaviour {
@@ -10,6 +11,7 @@ public class LevelManager : MonoBehaviour {
 
 	public void quitLevel(){
 		Debug.Log("Quit Level requested");
+		print("Quit Level");
 		Application.Quit();
 	}
 }
